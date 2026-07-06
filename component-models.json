@@ -15,6 +15,12 @@
         "label": "Description"
       },
       {
+          "component": "text",
+          "valueType": "string",
+          "name": "json-ld",
+          "label": "JSON LD"
+      },
+      {
         "component": "text",
         "valueType": "string",
         "name": "keywords",
