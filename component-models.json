@@ -135,6 +135,15 @@
         "description": "The label shown for this section in the Content Tree"
       },
       {
+        "component": "text",
+        "valueType": "string",
+        "name": "id",
+        "label": "Section Anchor ID",
+        "required": false,
+        "placeholder": "e.g., my-section",
+        "description": "The section will be linkable via this ID."
+      },
+      {
         "component": "multiselect",
         "name": "style",
         "label": "Style",
@@ -218,7 +227,16 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
-      }
+      },
+      {
+          "component": "text",
+          "valueType": "string",
+          "name": "id",
+          "label": "Hero ID",
+          "required": false,
+          "placeholder": "e.g., my-hero",
+          "description": "The hero block will be linkable via this ID."
+        }
     ]
   }
 ]
