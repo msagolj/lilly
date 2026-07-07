@@ -26,6 +26,15 @@
           "description": "The label shown for this section in the Content Tree"
         },
         {
+          "component": "text",
+          "valueType": "string",
+          "name": "id",
+          "label": "Section Anchor ID",
+          "required": false,
+          "placeholder": "e.g., my-section",
+          "description": "The section will be linkable via this ID."
+        },
+        {
           "component": "multiselect",
           "name": "style",
           "label": "Style",
