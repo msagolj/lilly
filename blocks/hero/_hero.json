@@ -40,6 +40,15 @@
           "value": "",
           "label": "Text",
           "valueType": "string"
+        },
+         {
+          "component": "text",
+          "valueType": "string",
+          "name": "id",
+          "label": "Hero ID",
+          "required": false,
+          "placeholder": "e.g., my-hero",
+          "description": "The hero block will be linkable via this ID."
         }
       ]
     }
