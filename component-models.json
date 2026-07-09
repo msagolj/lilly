@@ -15,10 +15,10 @@
         "label": "Description"
       },
       {
-          "component": "text",
-          "valueType": "string",
-          "name": "json-ld",
-          "label": "JSON LD"
+        "component": "text",
+        "valueType": "string",
+        "name": "json-ld",
+        "label": "JSON LD"
       },
       {
         "component": "text",
@@ -167,6 +167,13 @@
         "multi": false
       },
       {
+        "component": "hidden",
+        "valueType": "string",
+        "value": "image/png",
+        "name": "imageMimeType",
+        "label": "Image MIME Type"
+      },
+      {
         "component": "richtext",
         "name": "text",
         "value": "",
@@ -229,14 +236,14 @@
         "valueType": "string"
       },
       {
-          "component": "text",
-          "valueType": "string",
-          "name": "id",
-          "label": "Hero ID",
-          "required": false,
-          "placeholder": "e.g., my-hero",
-          "description": "The hero block will be linkable via this ID."
-        }
+        "component": "text",
+        "valueType": "string",
+        "name": "id",
+        "label": "Hero ID",
+        "required": false,
+        "placeholder": "e.g., my-hero",
+        "description": "The hero block will be linkable via this ID."
+      }
     ]
   }
 ]

@@ -43,6 +43,13 @@
           "multi": false
         },
         {
+          "component": "hidden",
+          "valueType": "string",
+          "value": "image/png",
+          "name": "imageMimeType",
+          "label": "Image MIME Type"
+        },
+        {
           "component": "richtext",
           "name": "text",
           "value": "",
